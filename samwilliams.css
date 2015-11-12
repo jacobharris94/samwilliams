@@ -24,9 +24,13 @@ h2 {
    z-index: 5;
 }
 
-#link:hover:after {
-    content: url(image.jpg); /* no need for qoutes */
+/*#link:hover:after {
+    content: url(image.jpg);  no need for qoutes 
     position: absolute;
     z-index: -5;
-    
+}*/
+
+#hoverImage{
+  position: absolute;
+  z-index: -5;
 }
